@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box{
+    align-items: "center";
+    justify-content: space-around;
+    flex-wrap:wrap;
+}
+
+.card{
+    width: 300px;
+    height: 600px;
+    margin: 15px;
+    border: 1px solid seagreen;
+    word-wrap: break-word;
+    
+
+}
+
+.title{
+    height: 150px ;
+    width: 100%;
+    word-wrap: "break-word";
+    color: red;
+    overflow:auto;
+}
+
+.description{
+    height: 120px;
+    width: 100%;
+    word-wrap: "break-word";
+}
